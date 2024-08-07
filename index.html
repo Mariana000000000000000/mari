@@ -10,7 +10,7 @@
 <body>
     <form action="" method="post">
         <p>Digite seu nome:</p>
-        <input type="text" name="nome" placeholder="Nome completo"> <br>
+        <input type="text" name="nome" placeholder="Nome completo" required> <br>
         <input type="email" name="email" value="@escola.pr.gov.br"> <br>
         <input type="number" name="telefone" placeholder="(XX)xxxxxxxxx">
         <input type="radio" name="trabalho" value="Sim" checked> Com certeza
@@ -23,6 +23,8 @@
             <option value="3">Amapá</option>
             <option value="4">Amazonas</option>
         </select>
+        <button type="submit"> Enviar</button>
+        <button type="reset">Apagar</button>
     </form>
 </body>
 
